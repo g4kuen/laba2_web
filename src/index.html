@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drive survived</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/logo/logo.png" />
+  </head>
+
+  <body background="https://sun9-78.userapi.com/impg/fpyeJacemy1ztFxuPuoLMjMTm98dfghLH785Vw/-Os9Z6CgS-U.jpg?size=1920x1200&quality=96&sign=c7e01a55a93a2fd0aa8b6e86968df29a&type=album">
+    <header>
+      <div class="position-fixed top-0 end-0 p-3" style="z-index: 11">
+        <div class="toast hide" role="alert">
+          <div class="toast-header">
+            <strong class="me-auto">Ошибка</strong>
+          </div>
+          <div class="toast-body">Функционал временно недоступен.</div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom bg-light">
+        <div class="container">
+          <b class="navbar-brand d-flex align-items-center" href="#">
+            <img src="img/logo/logo.png" width="40" height="40" alt="Logo" />
+            Gusly.org
+          </b>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <button class="btn btn-primary download-btn" type="button">
+                  Загрузить
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="container">
+        <h1 align = "center">Банк приколов Райана Гослинга</h1>
+
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="img/cards/ogo5.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 align = "center" class="card-title">
+                  100 рублей
+                </h5>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#showingYourself"
+                >
+                  Подробнее
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="img/cards/ogo2.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 align = "center" class="card-title">
+                  200 рублей
+                </h5>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#managingTime"
+                >
+                  Подробнее
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="img/cards/ogo4.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 align = "center" class="card-title">
+                  500 рублей
+                </h5>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#wayToHarmony"
+                >
+                  Подробнее
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="img/cards/ogo3.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 align = "center" class="card-title">
+                  1000 рублей
+                </h5>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#philosophyOfSuccess"
+                >
+                  Подробнее
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="img/cards/ogo1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 align = "center" class="card-title">
+                  5000 рублей
+                </h5>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#adventuresBeyond"
+                >
+                  Подробнее
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="showingYourself"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="showingYourselfModal"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="showingYourselfModal">
+                100 рублей
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                class="img-fluid"
+                src="img/cards/ogo5.png"
+                alt="Card image cap"
+              />
+              <p>
+                Сто рублевая купюра от великого человека
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="popover"
+                title="Ошибка транзакции"
+                data-content="Купюру сейчас нельзя купить">
+                Купить
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="managingTime"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="managingTimeModal"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="managingTimeModal">
+                200 рублей
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                class="img-fluid"
+                src="img/cards/ogo2.png"
+                alt="Card image cap"
+              />
+              <p>
+                Двухсот рублевая купюра от великого человека
+              </p>
+              <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="popover"
+              title="Ошибка транзакции"
+              data-content="Купюру сейчас нельзя купить">
+              Купить
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="wayToHarmony"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="wayToHarmonyModal"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="wayToHarmonyModal">
+                500 рублей
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                class="img-fluid"
+                src="img/cards/ogo4.png"
+                alt="Card image cap"
+              />
+              <p>
+                Пятьсот рублевая купюра от великого человека
+              </p>
+              <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="popover"
+              title="Ошибка транзакции"
+              data-content="Купюру сейчас нельзя купить">
+              Купить
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="philosophyOfSuccess"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="philosophyOfSuccessModal"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="philosophyOfSuccessModal">
+                1000 рублей
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                class="img-fluid"
+                src="img/cards/ogo3.png"
+                alt="Card image cap"
+              />
+              <p>
+                Одна тысячная купюра от великого человекаㅤㅤㅤㅤㅤㅤㅤ
+              <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="popover"
+              title="Ошибка транзакции"
+              data-content="Купюру сейчас нельзя купить">
+              Купить
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="adventuresBeyond"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="adventuresBeyondModal"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="adventuresBeyondModal">
+               5000 рублей
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                class="img-fluid"
+                src="img/cards/ogo1.png"
+                alt="Card image cap"
+              />
+              <p>
+                Пяти тысячная купюра от великого человека
+              </p>
+              <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="popover"
+              title="Ошибка транзакции"
+              data-content="Купюру сейчас нельзя купить">
+              Купить
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="d-flex justify-content-between border-top py-4 mt-auto bg-light"
+    >
+      <div class="container d-flex justify-content-between">
+        <div class="about font-weight-bold">Устинов Илья</div>
+        <div class="links d-flex gap-3">
+          <a href=""
+            ><img src="img/icons/linkedin-svgrepo-com.svg" alt="linkedIn"
+          /></a>
+          <a href=""
+            ><img src="img/icons/facebook-svgrepo-com.svg" alt="facebook"
+          /></a>
+          <a href=""
+            ><img src="img/icons/twitter-svgrepo-com.svg" alt="twitter"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>

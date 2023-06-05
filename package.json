@@ -1,0 +1,29 @@
+{
+  "name": "lab2.wem-main",
+  "version": "1.0.0",
+  "description": "##### Адаптивная верстка веб-страницы и сборка ресурсов",
+  "source" : "src/index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Ilya",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.6.4",
+    "parcel": "^2.9.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "8686"
+  },
+  "keywords": [
+    "qwerty"
+  ]
+}
